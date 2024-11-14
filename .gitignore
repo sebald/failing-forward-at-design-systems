@@ -26,10 +26,3 @@ Thumbs.db
 # Files related to HTTP server caching
 .npm/
 .npm-cache/
-
-# Reveal.js settings or config files (if any custom settings are used)
-reveal.json
-
-# Local server configurations (if using live-server or other local servers)
-http-server.json
-live-server.json
