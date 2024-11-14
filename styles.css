@@ -1,0 +1,9 @@
+.reveal h2 {
+    color: #3498db;
+}
+.reveal p {
+    font-size: 1.2em;
+}
+.reveal .slides section {
+    text-align: center;
+}
