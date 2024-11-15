@@ -2,12 +2,95 @@
 @tailwind components;
 @tailwind utilities;
 
-.reveal h2 {
-  color: #3498db;
+:root {
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-200: #bfdbfe;
+  --color-primary-300: #93c5fd;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-primary-800: #1e40af;
+  --color-primary-900: #1e3a8a;
+  --color-primary-950: #172554;
+
+  --color-accent-50: #f6f5f0;
+  --color-accent-100: #e8e6d9;
+  --color-accent-200: #ddd9c5;
+  --color-accent-300: #bab08a;
+  --color-accent-400: #a69769;
+  --color-accent-500: #97855b;
+  --color-accent-600: #816e4d;
+  --color-accent-700: #685640;
+  --color-accent-800: #59493a;
+  --color-accent-900: #4e4035;
+  --color-accent-950: #2c221c;
+
+  /* reveal.js */
+  --r-background-color: var(--color-accent-50);
+  --r-main-font: "Outfit", serif;
+  --r-main-font-size: 42px;
+  --r-main-color: var(--color-accent-900);
+  --r-block-margin: 20px;
+  --r-heading-margin: 0 0 theme(space.6) 0;
+  --r-heading-font: "Outfit", serif;
+  --r-heading-color: var(--color-primary-800);
+  --r-heading-line-height: 1.2;
+  --r-heading-letter-spacing: normal;
+  --r-heading-text-transform: none;
+  --r-heading-text-shadow: none;
+  --r-heading-font-weight: 700;
+  --r-heading1-text-shadow: none;
+  --r-heading1-size: 2.5em;
+  --r-heading2-size: 1.6em;
+  --r-heading3-size: 1.3em;
+  --r-heading4-size: 1em;
+  --r-code-font: monospace;
+  --r-link-color: #2a76dd;
+  --r-link-color-dark: #1a53a1;
+  --r-link-color-hover: #6ca0e8;
+  --r-selection-background-color: theme(colors.pink.800);
+  --r-selection-color: theme(colors.neutral.50);
+  --r-overlay-element-bg-color: 0, 0, 0;
+  --r-overlay-element-fg-color: 240, 240, 240;
 }
+
+.reveal .slides {
+  text-align: left;
+  font-weight: 200;
+}
+
 .reveal p {
-  font-size: 1.2em;
+  line-height: 1.5;
 }
-.reveal .slides section {
-  text-align: center;
+
+.fragment.blur-fade {
+  transition: all 0.4s ease-out;
+
+  transform: translateY(24px);
+  filter: blur(5px);
+}
+.fragment.blur-fade.visible {
+  transform: translateY(0);
+  filter: none;
+}
+
+.fragment.delay-1 {
+  transition-delay: 150ms;
+}
+.fragment.delay-2 {
+  transition-delay: 300ms;
+}
+.fragment.delay-3 {
+  transition-delay: 450ms;
+}
+.fragment.delay-4 {
+  transition-delay: 600ms;
+}
+.fragment.delay-5 {
+  transition-delay: 650ms;
+}
+.fragment.delay-6 {
+  transition-delay: 800ms;
 }

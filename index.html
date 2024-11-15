@@ -3,26 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Failing forward at Design Systems</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./node_modules/reveal.js/dist/reveal.css" />
     <link
       rel="stylesheet"
-      href="./node_modules/reveal.js/dist/theme/black.css"
+      href="./node_modules/reveal.js/dist/theme/white.css"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
-        <section data-include="slides/1.html">
-          <include file="slides/1.html" />
+        <section>
+          <include file="slides/01-title.html" />
         </section>
-        <section
-          data-markdown="slides/2.md"
-          data-separator="^---"
-          data-separator-vertical="^--"
-          data-separator-notes="^Note:"
-        ></section>
+        <section>
+          <include file="slides/02-hi.html" />
+        </section>
         <section>
           <include file="slides/3.html" />
         </section>
