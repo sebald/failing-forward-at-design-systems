@@ -15,30 +15,13 @@ const deck = new Reveal({
 deck.initialize();
 
 /**
- * Immediately reveal every fragment that has `[auto-load]`.
- * Not that his only works if there are no non-auto load fragments
- * in between.
+ * Enter animation for elements
  */
-deck.addEventListener("slidechanged", (e) => {
-  if (
-    deck
-      .getCurrentSlide()
-      .querySelectorAll(`.fragment[data-autoload][data-fragment-index="0"]`)
-      .length
-  ) {
-    deck.nextFragment();
-  }
-});
-
-/**
- * If there are fragments that have an autoload,
- * transition to the previous slide if the fragment is hidden.
- */
-deck.addEventListener("fragmenthidden", (e) => {
-  if (
-    e.fragment.hasAttribute("data-autoload") &&
-    e.fragment.getAttribute("data-fragment-index") === "0"
-  ) {
-    deck.prev();
-  }
+deck.on("slidechanged", (e) => {
+  e.currentSlide
+    .querySelectorAll("[data-autoload]")
+    .forEach((el) => el.classList.add("visible"));
+  e.previousSlide
+    .querySelectorAll("[data-autoload]")
+    .forEach((el) => el.classList.remove("visible"));
 });

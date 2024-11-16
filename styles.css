@@ -65,32 +65,37 @@
   line-height: 1.5;
 }
 
-.fragment.blur-fade {
-  transition: all 0.4s ease-out;
+[data-autoload] {
+  transition: all 0s;
+  will-change: auto;
 
+  opacity: 0;
   transform: translateY(24px);
   filter: blur(5px);
 }
-.fragment.blur-fade.visible {
+[data-autoload].visible {
+  transition: all 0.4s ease-out;
+
+  opacity: 1;
   transform: translateY(0);
   filter: none;
 }
 
-.fragment.delay-1 {
+[data-autoload="1"].visible {
   transition-delay: 150ms;
 }
-.fragment.delay-2 {
+[data-autoload="2"].visible {
   transition-delay: 300ms;
 }
-.fragment.delay-3 {
+[data-autoload="3"].visible {
   transition-delay: 450ms;
 }
-.fragment.delay-4 {
+[data-autoload="4"].visible {
   transition-delay: 600ms;
 }
-.fragment.delay-5 {
+[data-autoload="5"].visible {
   transition-delay: 650ms;
 }
-.fragment.delay-6 {
+[data-autoload="6"].visible {
   transition-delay: 800ms;
 }
