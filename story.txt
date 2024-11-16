@@ -1,0 +1,82 @@
+- AI just shows what the internet says
+- image of a design system with components, colors etc.
+- so most people do this, create color palettes, typography and components (maybe even code them up)
+- and then they go to their collegeaues ... but the dont care (too busy)
+- and then you are pissed because no one is using your cool shiny thing
+
+- expectation vs reality
+- so we have all these presumptions
+- and the problem is, there are not wrong, if you look at seemingly successful DS, they have all that (material, ibm, atlassian)
+- BUT, we forget the most important thing. a DS is like an (internal) product
+- Needs a dedicated team yada yada
+- whats important for a product is tis **market fit**
+
+- so, lets step one step back
+- dan malls image
+- this is the best representation for me that I yet found
+- and you see there are all the pieceses you would expect
+- but there are more! → guidelines, reference site!
+- a design system is a spectrum
+
+- With what so you start?
+- Align with business goals
+- For us “core zerschlagen” apps auslösen
+- So we build something that would help them build UIs (component library called marigold)
+- Basic stuff you need: buttons, inputs, dialogs, …
+- And we got lucky and found one team that actually wanted to use it.
+- And while this was great, it wasn't one we targeted. Had morning to do with our core software
+- This wasn't a Leuchtturm that could spark interest, nobody cared
+
+- And one of the reasons, only we seem to notice was that there were no projects that works extract parts of the core
+- So now we had this thing, that we new was awesome. But nobody wanted to play. They were checked out.
+
+- What do you do in this instance?
+- Follow the “money”
+- Which was the core
+- So how do we get in the core?
+- Technically mismatch (jQuery/PHP vs React)
+- Solution: introduce react to the core (hae nothing to do with a design system)
+
+- New challenges: almost no one had ever used react, so how to convince them
+- Lucifer: what do you desire
+- Building UIs is not fun for them ) make it as fun as possible, no CSS)
+- React raining, better docs, communication and support
+- E.g. sit with them and build with them, quickly help them with their issues
+- Governance became really important
+
+- Adding a new theme for design system
+- We basically rebuild the Core UI
+- Build additional components
+- Heavily invested in our docs (80% of our time spent on docs)
+
+- There was one group missing: the designers
+- Handoff culture, design → build
+- No shit, the design system was mostly build by UI Engineers
+- Buy in from the designers with an UI kit that resembled the Core UI
+
+- We changed the “we can't build that” to “we think we can build that with Marigold”
+- They start using their power to basically
+- And ofc, they build what they thought is best
+- The didn't look at how things were build (even though we his was bad deaign), they tried to improve the design
+- Which is honorable, but not humble
+- There was no alignment and some devs just tried really hard to build the envisioned design, some just said “no this is not what it looks like”
+- Both is not great
+
+- What did we miss? Patterns are more important than components. To build great components the context must be clear
+
+---
+
+The recipe to be mist likely successful 
+
+- Follow the money (find out what product teams are struggling with to build, not on instance but repeatedly)
+- Start with patterns, build components for that pattern
+- ??? Don't start from scratch, please don't use MUI or Bootstrap, use a headless library (headless UI, react aria, radix, ariakit, base UI)
+- Don't be “sich zu fein sein” for work that is “not” DS, it's a spectrum
+- The obstacle is the way, ordering people is short term, you need to show
+- Force of Inertia, you need to get the ball moving and it will stay moving
+
+---
+
+Know why you are doing this!
+
+→ innovation how we build products
