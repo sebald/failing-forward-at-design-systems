@@ -50,8 +50,8 @@
   --r-link-color: #2a76dd;
   --r-link-color-dark: #1a53a1;
   --r-link-color-hover: #6ca0e8;
-  --r-selection-background-color: theme(colors.pink.800);
-  --r-selection-color: theme(colors.neutral.50);
+  --r-selection-background-color: theme(colors.amber.200);
+  --r-selection-color: inherit;
   --r-overlay-element-bg-color: 0, 0, 0;
   --r-overlay-element-fg-color: 240, 240, 240;
 }
@@ -67,6 +67,13 @@
 
 .reveal p {
   line-height: 1.5;
+}
+
+.fragment.blur {
+  filter: none;
+}
+.fragment.blur.visible {
+  filter: blur(8px);
 }
 
 [data-autoload],

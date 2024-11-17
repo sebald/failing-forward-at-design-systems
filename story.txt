@@ -9,19 +9,18 @@
 - so we have all these presumptions
 - and the problem is, they are not wrong (there is a cost adapting your stuff)
 - if you look at seemingly successful DS, they have all that (material, ibm, atlassian)
-- BUT, we forget the most important thing. a DS is like an (internal) product
-- Needs a dedicated team yada yada
-- whats important for a product is tis **market fit**
-- Alt, without calling out the product part: what's important, regardless of what you build, is market fit (image of joey?)
+- what's important, regardless of what you build, is market fit (image of joey?)
 
+=== MOVE THIS TO THE END? ===
 - so, lets step one step back
 - dan malls image
 - this is the best representation for me that I yet found
 - and you see there are all the pieceses you would expect
 - but there are more! → guidelines, reference site!
 - a design system is a spectrum
+=== MOVE THIS TO THE END? ===
 
-- With what so you start?
+- With what do you start?
 - Align with business goals
 - For us “core zerschlagen” apps auslösen
 - So we build something that would help them build UIs (component library called marigold)
@@ -69,8 +68,9 @@
 
 ---
 
-The recipe to be mist likely successful 
+The recipe to be most likely successful 
 
+- Trust in your adaptability, not your plan
 - Follow the money (find out what product teams are struggling with to build, not on instance but repeatedly)
 - Start with patterns, build components for that pattern
 - ??? Don't start from scratch, please don't use MUI or Bootstrap, use a headless library (headless UI, react aria, radix, ariakit, base UI)
