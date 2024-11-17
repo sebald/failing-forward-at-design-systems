@@ -2,14 +2,17 @@
 - image of a design system with components, colors etc.
 - so most people do this, create color palettes, typography and components (maybe even code them up)
 - and then they go to their collegeaues ... but the dont care (too busy)
-- and then you are pissed because no one is using your cool shiny thing
+- and then you are sad because no one is using your cool shiny thing
+- That's what happened to us
 
 - expectation vs reality
 - so we have all these presumptions
-- and the problem is, there are not wrong, if you look at seemingly successful DS, they have all that (material, ibm, atlassian)
+- and the problem is, they are not wrong (there is a cost adapting your stuff)
+- if you look at seemingly successful DS, they have all that (material, ibm, atlassian)
 - BUT, we forget the most important thing. a DS is like an (internal) product
 - Needs a dedicated team yada yada
 - whats important for a product is tis **market fit**
+- Alt, without calling out the product part: what's important, regardless of what you build, is market fit (image of joey?)
 
 - so, lets step one step back
 - dan malls image
