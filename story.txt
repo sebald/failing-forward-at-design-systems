@@ -36,6 +36,7 @@
 - Follow the “money”
 - Which was the core
 - So how do we get in the core?
+== HERE === (map the below 2 blocks to the three questions!)
 - Technically mismatch (jQuery/PHP vs React)
 - Solution: introduce react to the core (hae nothing to do with a design system)
 

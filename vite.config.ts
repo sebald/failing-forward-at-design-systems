@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
-import injectHTML from "vite-plugin-html-inject";
+import injectFolder from "./plugins/vite-plugin-inject-folder";
 
 export default defineConfig({
   base:
@@ -9,10 +9,5 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  plugins: [
-    injectHTML({
-      tagName: "include",
-      sourceAttr: "file",
-    }),
-  ],
+  plugins: [injectFolder()],
 });
