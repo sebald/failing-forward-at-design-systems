@@ -36,10 +36,10 @@
 - Follow the “money”
 - Which was the core
 - So how do we get in the core?
-== HERE === (map the below 2 blocks to the three questions!)
 - Technically mismatch (jQuery/PHP vs React)
 - Solution: introduce react to the core (hae nothing to do with a design system)
 
+=== HERE ===
 - New challenges: almost no one had ever used react, so how to convince them
 - Lucifer: what do you desire
 - Building UIs is not fun for them ) make it as fun as possible, no CSS)
@@ -57,6 +57,7 @@
 - No shit, the design system was mostly build by UI Engineers
 - Buy in from the designers with an UI kit that resembled the Core UI
 
+=== HERE ===
 - We changed the “we can't build that” to “we think we can build that with Marigold”
 - They start using their power to basically
 - And ofc, they build what they thought is best
