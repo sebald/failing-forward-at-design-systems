@@ -6,6 +6,7 @@ export default defineConfig({
     process.env.NODE_ENV === "production"
       ? "/failing-forward-at-design-systems"
       : "",
+  publicDir: "assets",
   server: {
     port: 3000,
   },
