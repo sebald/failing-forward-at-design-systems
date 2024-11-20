@@ -97,6 +97,18 @@
 .fragment.blur.visible {
   filter: blur(8px);
 }
+.fragment.wavy {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: transparent;
+  text-underline-offset: theme(space.2);
+  text-decoration-thickness: 2px;
+  transition: text-decoration-color 500ms;
+}
+.fragment.wavy.visible {
+  text-decoration-color: var(--color-primary-800);
+  transition-delay: var(--delay, 0);
+}
 
 [data-autoload],
 [data-autoload-timer] {

@@ -39,7 +39,6 @@
 - Technically mismatch (jQuery/PHP vs React)
 - Solution: introduce react to the core (hae nothing to do with a design system)
 
-=== HERE ===
 - New challenges: almost no one had ever used react, so how to convince them
 - Lucifer: what do you desire
 - Building UIs is not fun for them ) make it as fun as possible, no CSS)
@@ -54,7 +53,7 @@
 
 - There was one group missing: the designers
 - Handoff culture, design → build
-- No shit, the design system was mostly build by UI Engineers
+- the design system was mostly build by UI Engineers
 - Buy in from the designers with an UI kit that resembled the Core UI
 
 === HERE ===
@@ -67,6 +66,11 @@
 - Both is not great
 
 - What did we miss? Patterns are more important than components. To build great components the context must be clear
+
+--- Missing in the slides
+
+- the UI Kit!
+
 
 ---
 
