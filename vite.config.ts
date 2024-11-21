@@ -7,8 +7,5 @@ export default defineConfig({
       ? "/failing-forward-at-design-systems"
       : "",
   publicDir: "assets",
-  server: {
-    port: 3000,
-  },
   plugins: [injectFolder()],
 });
