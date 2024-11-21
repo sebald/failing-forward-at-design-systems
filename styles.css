@@ -97,7 +97,8 @@
 .fragment.blur.visible {
   filter: blur(8px);
 }
-.fragment.wavy {
+.fragment.wavy,
+.underline-wavy {
   text-decoration: underline;
   text-decoration-style: wavy;
   text-decoration-color: transparent;
@@ -105,7 +106,8 @@
   text-decoration-thickness: 2px;
   transition: text-decoration-color 500ms;
 }
-.fragment.wavy.visible {
+.fragment.wavy.visible,
+.underline-wavy {
   text-decoration-color: var(--color-primary-800);
   transition-delay: var(--delay, 0);
 }
