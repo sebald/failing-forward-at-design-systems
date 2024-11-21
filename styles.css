@@ -149,3 +149,21 @@
 [data-autoload="6"].visible {
   transition-delay: 800ms;
 }
+[data-autoload="7"].visible {
+  transition-delay: 950ms;
+}
+[data-autoload="8"].visible {
+  transition-delay: 1100ms;
+}
+[data-autoload="9"].visible {
+  transition-delay: 1250ms;
+}
+[data-autoload="10"].visible {
+  transition-delay: 1400ms;
+}
+[data-autoload="11"].visible {
+  transition-delay: 1550ms;
+}
+[data-autoload="12"].visible {
+  transition-delay: 1700ms;
+}
