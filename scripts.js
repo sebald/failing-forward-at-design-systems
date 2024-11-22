@@ -1,5 +1,5 @@
 import Reveal from "reveal.js";
-import RevealMarkdown from "reveal.js/plugin/markdown/markdown.esm.js";
+import RevealNotes from "reveal.js/plugin/notes/notes.esm";
 import Typewriter from "typewriter-effect/dist/core";
 
 const typewripter = el => {
@@ -17,7 +17,7 @@ const typewripter = el => {
 };
 
 const deck = new Reveal({
-  plugins: [RevealMarkdown],
+  plugins: [RevealNotes],
   hash: true,
   controls: false,
   progress: false,
